@@ -1,0 +1,10 @@
+*{margin: 0px;
+}
+table, tr, th, td{border: 1px solid black;
+border-radius: 5px;}  
+.header{background-color: gray;}
+.row1{background-color: lightblue;}
+.row2{background-color: lightgray;}
+.number{text-decoration: dashed;
+font-family: 'Courier New', Courier, monospace; }
+.name{font-weight: bold;}

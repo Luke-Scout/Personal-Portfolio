@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+:root {
+	--background-dark-text-light: #100c08;
+	--background-light-text-dark: #f2f3f4;
+  
+}
+@import url("https://use.typekit.net/zak5ara.css");
+
+.container {
+	width: 600px;
+	height: 600px;
+	padding: 50px;
+	border: 5px dashed black;
+	margin: 50px auto;
+	background-color: rgb(124, 124, 124);
+}
+.colors {
+	display: grid;
+	grid-template: 40% 40%/ 40% 40%;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.color {
+	width: 250px;
+	height: 250px;
+	grid-area: auto;
+	overflow: auto;
+	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.background-dark-text-light {
+	background-color: var(--background-dark-text-light);
+	color: var(--background-light-text-dark);
+	border: 5px solid var(--background-light-text-dark);
+}
+.background-light-text-dark {
+	background-color: var(--background-light-text-dark);
+	color: var(--background-dark-text-light);
+	border: 5px solid var(--background-dark-text-light);
+}
+
+.title {
+	width: 80%;
+	font-weight: 900;
+	text-align: center;
+}
+
+.hexcode {
+	width: 50%;
+}
+.other {
+	width: 60%;
+	text-align: center;
+}
+.font{font-size: xx-large}
+.monospace{ font-family: 'sizmo', sans-serif;}
+.times{font-family: 'ten-old-style-variable', sans-serif;}
+.cursive{font-family: 'learning-curve', sans-serif;}
+.future{font-family: 'good-times', sans-serif;}

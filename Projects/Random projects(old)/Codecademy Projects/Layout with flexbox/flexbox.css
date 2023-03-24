@@ -1,0 +1,145 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	margin: 0;
+}
+html {
+	width: 100%;
+}
+/*header section*/
+.header {
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	display: flex;
+	z-index: 100;
+	align-items: center;
+}
+.nav {
+	display: flex;
+	text-decoration: underline;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	width: 50%;
+}
+img.logo {
+	margin-right: 10px;
+	height: 50px;
+	position: relative;
+	float: left;
+}
+.logo-container {
+	width: 50%;
+}
+/* First Div*/
+.main {
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*142kl5l*_ga*MTIxNjMwNjI2NC4xNjc1NDY0MjU1*_ga_3LRZM6TM9L*MTY3NjY2ODc3NS45LjEuMTY3NjY2OTgzOS41OC4wLjA.);
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+}
+.text {
+	padding: 5px 0;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.mission {
+	font-weight: bold;
+	margin: 10px;
+}
+
+/* Steeping div*/
+.steeping {
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+	padding: 10px;
+}
+.teas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    
+}
+.tea-total {
+	text-transform: capitalize;
+	width: 300px;
+}
+.name {
+	margin: 10px 0px;
+}
+.img {
+	width: 300px;
+	height: 200px;
+    border-radius: 10px;
+}
+.heading {
+	margin: 15px;
+}
+/* last of content */
+.locations {
+	height: 500px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*a42dd*_ga*MTIxNjMwNjI2NC4xNjc1NDY0MjU1*_ga_3LRZM6TM9L*MTY3NjY2ODc3NS45LjEuMTY3NjY2OTgzOS41OC4wLjA.);
+	width: 1200px;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+.location-container{display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+background: none;}
+.location {
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    border-radius: 15px;
+}
+.title-loco {
+	font-weight: 700;
+    
+    margin: 40px;
+}
+.large {
+	font-size: larger;
+}
+.footer {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+.title-location{margin: 50px;
+background: none;
+font-weight: 700;
+font-size: larger;}

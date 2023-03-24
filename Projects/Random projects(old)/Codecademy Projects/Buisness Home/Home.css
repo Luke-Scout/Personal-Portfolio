@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+header {
+	background-color: #ffaccc;
+	position: fixed;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 69px;
+	border-bottom: 6px solid blanchedalmond;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	list-style: none;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 20px;
+}
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+nav li {
+	display: inline-block;
+	width: 100px;
+	padding: 10px 15px;
+	border: 2px solid #a2d2ff;
+	border-radius: 10px;
+	background-color: #bde0fe;
+}
+.container{display: flex;
+justify-content: space-between;
+width: 100%;
+;
+flex-direction: row;}
+.left.info {
+	border-right: 3px solid black;
+	width: 40%;
+	height: 500px;
+	background: #2f6690;
+	position: relative;
+	top: 63px;
+}
+h1.title {
+	text-transform: uppercase;
+	font-size: 50px;
+	color: whitesmoke;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-weight: 900;
+	text-shadow: #ffaccc 5px 5px 5px;
+	letter-spacing: 2px;
+	line-height: 0.9;
+	text-align: left;
+}
+#email {
+	width: 80%;
+	height: 35px;
+	padding: 10px 20px;
+	margin: 50px auto 20px auto;
+	border: #ffafcc 3px solid;
+	border-radius: 22.5px;
+	opacity: 0.75;
+	background-color: #a2d2ff;
+	text-align: left;
+	font-weight: 700;
+	font-size: large;
+	color: white;
+	text-decoration: dotted;
+}
+#email:hover {
+	border-width: 5px;
+	box-shadow: #bde0fe 5px 5px 5px;
+}
+.submit {
+	width: 20%;
+	height: 34px;
+	border: #ffaccc 2px solid;
+	border-radius: 18px;
+	background-color: #a2cfff50;
+	margin: 0px 400px 0px 0px;
+}
+.submit:hover {
+	border-width: 3px;
+	box-shadow: #bde0fe 3px 3px 5px;
+}
+.submit:active {
+	background-color: #a2cfff;
+	transition: 300ms all ease-in-out 100ms;
+    
+}
+div.products.right{width: calc(60% - 3px);
+height: 500px;
+display: grid;
+grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+gap: 1px;
+justify-content: center;
+align-items: center;
+background-color: black;
+position: relative;
+top: 63px;
+
+}
+.img-back{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.img1{background-image: url(julien-riedel-WvOVxpPNAEY-unsplash.jpg);
+grid-area: 1/ 1/ 1/ 1;}
+.img2{background-image: url(paul-fiedler-M_S7pim3Hwg-unsplash.jpg);
+grid-area: 1/ 2/ 1/ 2;}
+.img3{background-image: url(stephen-phillips-hostreviews-co-uk-em37kS8WJJQ-unsplash.jpg);
+grid-area: 1/ 3/ 1/ 3;}
+.img4{ background-image: url(v-a7Co93j8nBw-unsplash.jpg);
+grid-area: 2/ 1/ 2/ 1;}
+.img5{background-image: url(victor-he-Fuve9nyZQbM-unsplash.jpg);
+grid-area: 2/ 2/ 2/ 2;}
+.img6{background-image: url(julien-riedel-WvOVxpPNAEY-unsplash.jpg);
+grid-area: 2/ 3/ 2/ 3;}
+footer{background: #475657;
+color: white;
+position: relative;
+width: 100%;
+height: 300px;
+
+}
+.contact{color: white;
+width: 40%;
+height: 100%;
+border-right: #a2cfff 1px solid;
+}
