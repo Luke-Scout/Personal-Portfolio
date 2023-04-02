@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Listeners Luke</title>
+</head>
+<body>
+    <div id="task1">
+        <h1 id="text1">Not updated</h1>
+        <button id="button1">Update!</button>
+    </div>
+    <div id="task2">
+        <h1 id="text2">Not updated</h1>
+        <button id="button2">Update!</button>
+    </div>
+    <div id="task3">
+        <h1 id="text3">Not updated</h1>
+        <button id="button3">Update!</button>
+    </div>
+    <div id="task4">
+        <h1 id="text4">Not updated</h1>
+        <button id="button4">Update!</button>
+    </div>
+    <div id="task5">
+        <h1 id="text5">Not updated</h1>
+        <button id="button5">Update!</button>
+    </div>
+    <div id="task6">
+        <h1 id="text6">Not updated</h1>
+        <button id="button6">Update!</button>
+    </div>
+    <script>
+        let text1 = document.getElementById('text1')
+        let text2 = document.getElementById('text2')
+        let text3 = document.getElementById('text3')
+        let text4 = document.getElementById('text4')
+        let text5 = document.getElementById('text5')
+        let text6 = document.getElementById('text6')
+        let button1 = document.getElementById('button1')
+        let button2 = document.getElementById('button2')
+        let button3 = document.getElementById('button3')
+        let button4 = document.getElementById('button4')
+        let button5 = document.getElementById('button5')
+        let button6 = document.getElementById('button6')
+        function clickFirstTask(){
+            text1.innerHTML = 'clicked'
+
+        }
+        button1.onclick = clickFirstTask;
+        function hoverSecondTask(){
+            text2.innerHTML = 'hovering'
+        }
+        button2.onmouseover = hoverSecondTask;
+        function leaveThirdTask(){
+            text3.innerHTML = 'mouse is gone'
+        }
+        button3.onmouseleave = leaveThirdTask;
+        function pressFourthTask(){
+            text4.innerHTML = 'pressed'
+        }
+        function releaseFourthTask(){
+            text4.innerHTML = 'released'
+        }
+        button4.onmousedown = pressFourthTask
+        button4.onmouseup = releaseFourthTask;
+        function scrollFifthTask(){
+            text5.innerHTML = 'scrolling'
+        }
+        button5.onwheel = scrollFifthTask;
+        function keySixthTask(){
+            text6.innerHTML = event.key
+        }
+        button6.onkeypress = keySixthTask
+    </script>
+</body>
+</html>
